@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>당신은 소유하고 있습니까? 그것은 고양이이다.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="../css/layout.css" />
+    <script src="../js/mbti.js" defer></script>
+    <script
+      src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js"
+      integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/kakao.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>오직 나 그저 소유하지 않다 고양이</h1>
+    </header>
+    <main>
+      <div class="start contents-box on">
+        <div class="inner">
+          <h2>나는 묻는다 당신에게 나는 그림인가 갖고있는 고양이의?</h2>
+          <button class="btn btnStart">당장 시작하기 고양이 시험</button>
+        </div>
+      </div>
+      <div class="question contents-box">
+        <div class="inner">
+          <div class="progress">
+            <div class="bar"></div>
+          </div>
+          <div class="question-box">문제가 나오는 곳</div>
+          <div class="btns">
+            <button class="btn type01">첫번째 선택</button>
+            <button class="btn type02">두번쨰 선택</button>
+          </div>
+        </div>
+      </div>
+      <div class="result contents-box">
+        <div class="inner">
+          <h5>당신의 고양이 이것이다</h5>
+          <div class="title">MBTI</div>
+          <div class="subscript">내용 설명</div>
+          <div class="btns">
+            <button class="btn retry">다시하기</button>
+            <button class="btn share">함께한다</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
