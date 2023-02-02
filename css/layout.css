@@ -135,9 +135,12 @@ button {
   width: 100%;
   height: 100%;
 }
-.result button {
-  width: 70%;
-  height: 120px;
+.result .btns {
+  display: flex;
+}
+.result .btns button {
+  width: 40%;
+  height: 100px;
   background-color: #fff;
   color: #111;
   font-size: 4vw;

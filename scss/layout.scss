@@ -135,15 +135,18 @@ button {
       }
     }
   }
-  button {
-    width: 70%;
-    height: 120px;
-    background-color: #fff;
-    color: #111;
-    font-size: 4vw;
-    font-weight: 700;
-    margin: 0px auto;
-    box-sizing: border-box;
-    word-break: keep-all;
+  .btns {
+    display: flex;
+    button {
+      width: 40%;
+      height: 100px;
+      background-color: #fff;
+      color: #111;
+      font-size: 4vw;
+      font-weight: 700;
+      margin: 0px auto;
+      box-sizing: border-box;
+      word-break: keep-all;
+    }
   }
 }

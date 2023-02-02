@@ -78,7 +78,7 @@ function getMBTI() {
         <div class="photo">
             <img src="${item.image}" class="cat">
         </div>
-        <span>${item.desc}</span>
+        <span class="desc">${item.desc}</span>
         `;
       // <h5>${item.name}</h5>
       boxResult.innerHTML = item.name;
